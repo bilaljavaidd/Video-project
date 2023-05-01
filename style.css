@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.container:after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.372);
+    z-index: -1;
+    /* opacity: 0.6; */
+}
+
+.myvideo {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      z-index: -2;
+   
+}
+
+
+h1{
+   text-align: center;
+    position: absolute;
+     margin-top: 20%;
+    margin-left: 40%; 
+    font-size: 50px;
+    color: aliceblue;
+} 
+
+
+.mybutton{
+
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 20px;
+    transition: 0.8 all ease;
+     
+} 
+
+.mybutton button{
+   
+    width: 85px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+    color: aliceblue;
+    transition: 0.8s all ease;
+    
+}
+
+.mybutton button{
+    transform: scale(0.9);
+}
+
+.mybutton button:hover{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
